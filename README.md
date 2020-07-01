@@ -1,3 +1,8 @@
+A collection of shell scripts for migrating Git repositories with unfortunately
+  named default branches to a default branch called `main`.
+
+## `git_init_change_default_branch.sh`
+
 This shell script changes the default branch to `main` when you use `git init`
   to create a new repository.
 
@@ -7,7 +12,7 @@ GitHub will recognize the first branch you push to a newly initialized repositor
 You can download and run this script with this one-liner:
 
 ```sh
-wget -O - https://raw.githubusercontent.com/brycelelbach/git_change_default_branch/main/git_change_default_branch.sh | sh
+wget -O - https://raw.githubusercontent.com/brycelelbach/git_change_default_branch/main/git_init_change_default_branch.sh | sh
 ```
 
 There's no option to directly change the default branch used by `git init`.
