@@ -7,7 +7,7 @@ GitHub will recognize the first branch you push to a newly initialized repositor
 You can download and run this script with this one-liner:
 
 ```sh
-wget -O - https://raw.githubusercontent.com/brycelelbach/git_change_default_branch/main/git_change_default_branch.sh | bash
+wget -O - https://raw.githubusercontent.com/brycelelbach/git_change_default_branch/main/git_change_default_branch.sh | sh
 ```
 
 There's no option to directly change the default branch used by `git init`.
