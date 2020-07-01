@@ -2,7 +2,7 @@
 # Released under the Apache License v2.0 with LLVM Exceptions.
 # See https://llvm.org/LICENSE.txt for license information.
 # SPDX-License-Identifier: Apache-2.0 WITH LLVM-exception
-#! /bin/sh
+#! /usr/bin/env bash
 if [ ! -z `git config --get init.templateDir` ]; then
   echo "The Git init.templateDir option is already set; I'm not going to "
   echo "override it. You can manually change the default branch by modifying "
